@@ -19,6 +19,20 @@ header > h1 {
     
 }
 
+div > a {
+    position: absolute;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration:0.5s;
+    color: black;
+    font-size: 1em;
+}
+
+div > a:hover {
+    background-color: rgba(149, 255, 151, 0.856);
+    color: black;
+}
+
 nav {
     text-align: right;
     background-color: white;
@@ -35,10 +49,16 @@ nav > a {
     
 }
 
+nav > div {
+    text-align: left;
+}
+
 nav > a:hover {
     background-color: rgba(149, 255, 151, 0.856);
     color: black;
 }
+
+
 
 
 body {
