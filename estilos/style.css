@@ -39,8 +39,10 @@ div > a {
 }
 
 div > a:hover {
-    background-color: aliceblue;
+    background-color: rgba(252, 253, 255, 0.379);
     color: black;
+    ;
+    
 }
 
 nav {
@@ -55,21 +57,22 @@ nav > a {
     font-weight: bold;
     transition-duration:0.5s;
     color: black;
-
-    
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.267);
 }
 
 nav > div {
     text-align: left;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.267);
 }
 
 nav > a:hover {
-    background-color: aliceblue;
+    background-color: rgba(252, 253, 255, 0.509);
     color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
 }
-
-
-
 
 body {
     
