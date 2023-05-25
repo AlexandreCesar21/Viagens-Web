@@ -40,9 +40,7 @@ div > a {
 
 div > a:hover {
     background-color: rgba(252, 253, 255, 0.379);
-    color: black;
-    ;
-    
+    color: black; 
 }
 
 nav {
