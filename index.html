@@ -39,10 +39,24 @@
                    account_circle
                    </span> Entre ou cadastre-se</a>
            </div>
-           <a href="#"><span class="material-symbols-outlined">flight_takeoff</span>Passagens</a>
-           <a href="#"><span class="material-symbols-outlined">hotel</span>Hotéis</a>
-           <a href="#"><span class="material-symbols-outlined">directions_car</span>Carros</a>
-           <a href="#"><span class="material-symbols-outlined">directions_boat</span>Cruzeiros</a>
+
+
+                <a href="#" class="principal"><span class="material-symbols-outlined">flight_takeoff</span>Passagens</a>
+                <a href="#" class="principal"><span class="material-symbols-outlined">hotel</span>Hotéis</a>
+                <a href="#" class="principal"><span class="material-symbols-outlined">directions_car</span>Carros</a>
+                <a href="#" class="principal"><span class="material-symbols-outlined">directions_boat</span>Cruzeiros</a>
+
+           <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+           <menu id="itens">
+
+                <a href="#"><span class="material-symbols-outlined">flight_takeoff</span>Passagens</a>
+                <a href="#"><span class="material-symbols-outlined">hotel</span>Hotéis</a>
+                <a href="#"><span class="material-symbols-outlined">directions_car</span>Carros</a>
+                <a href="#"><span class="material-symbols-outlined">directions_boat</span>Cruzeiros</a>
+
+           </menu>
+
+
 
            <h1>Viagens Web</h1>
        </nav>
@@ -53,4 +67,20 @@
     <h1>Testando</h1>
 </body>
 </html>
+<script>
+    function mudouTamanho() {
+        if (window.innerWidth >= 600){
+            itens.style.display = "block"
+        } else {
+            itens.style.display = "none"
+        }
+    }
+    function clickMenu() {
+        if (itens.style.display == "block"){
+            itens.style.display = "none"
+        } else {
+            itens.style.display = "block"
+        }
+    }
+</script>
 

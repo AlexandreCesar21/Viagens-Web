@@ -72,6 +72,42 @@ nav > a:hover {
     border-bottom-right-radius: 80px;
 }
 
+menu {
+    display: none;
+}
+
+menu {
+    list-style-type: none;
+}
+
+menu > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: right;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.267);
+    color: white;
+    
+}
+
+menu > a:hover {
+    background-color: rgba(252, 253, 255, 0.509);
+    color: black;
+}
+
+span#burguer {
+    
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 10px;
+}
+
+span#burguer:hover {
+    
+    color: black;
+}
+
 body {
     
     font-family: Arial, Helvetica, sans-serif;
