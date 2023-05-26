@@ -1,7 +1,19 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Sriracha&display=swap');
+
+:root {
+    --font-padrão: 'Bebas Neue';
+    --fonte-1: 'Lobster';
+    --fonte-2: 'Abril Fatface';
+}
+
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -113,12 +125,23 @@ body {
 }
 
  h1 {
+    text-align: center;
+    font-family: var(--fonte-2);
+    font-size: 3em;
     
 }
 
-figure > img {
-    width: 50%;
-    height: auto;
-    text-align: center;
+.cot1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+
+.centro {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
 
