@@ -128,7 +128,7 @@ body {
     text-align: center;
     font-family: var(--fonte-2);
     font-size: 3em;
-    
+    padding: 10px;
 }
 
 .cot1 {
