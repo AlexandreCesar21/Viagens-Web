@@ -14,6 +14,7 @@
 
 
 
+
 * {
     margin: 0px;
     padding: 0px;
@@ -127,7 +128,7 @@ body {
 h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 img {
@@ -145,29 +146,61 @@ p {
     padding: 10px;
 }
 
+h2 {
+    padding: 10px;
+}
+
+h4 {
+    padding: 10px;
+    color: gray;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 .caixa1 {
             display: inline-block;
-            width: 200px;
-            height: 200px;
-            padding: 10px;
+            width: 290px;
+            height: 100px;
+            padding: 100px;
             background-color: aqua;
             margin-right: 10px;
             text-align: center;
+            position: relative;
+            
+            
 
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
+}
+
+
+.caixa1 > h1 {
+    color: white;
+    font-size: 2em;
+    top: 0;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    padding: 10px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.267);
 }
 
 .caixa2 {
             display: inline-block;
-            width: 200px;
-            height: 200px;
-            padding: 10px;
+            width: 290px;
+            height: 100px;
+            padding: 100px;
             background-color: aqua;
             margin-right: 10px;
             text-align: center;
+            position: relative;
+            
+            
 
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
@@ -175,32 +208,113 @@ p {
             border-bottom-right-radius: 10px;
 }
 
+.caixa2 > h1 {
+    color: white;
+    font-size: 2em;
+    top: 0;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    padding: 10px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.267);
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+
+
+
 .caixa3 {
             display: inline-block;
-            width: 200px;
+            width: 300px;
             height: 200px;
             padding: 10px;
             background-color: aqua;
             margin-right: 10px;
             text-align: center;
+            position: relative;
 
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
+}
+
+.caixa3 > h1 {
+    color: white;
+    font-size: 2em;
+    top: 0;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    padding: 10px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.267);
+    
 }
 
 .caixa4 {
             display: inline-block;
-            width: 200px;
+            width: 300px;
             height: 200px;
             padding: 10px;
             background-color: aqua;
             margin-right: 10px;
             text-align: center;
+            position: relative;
+            
 
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
 }
+
+.caixa4 > h1 {
+    color: white;
+    font-size: 2em;
+    top: 0;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    padding: 10px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.267);
+    
+}
+
+.caixa5 {
+            display: inline-block;
+            width: 300px;
+            height: 200px;
+            padding: 10px;
+            background-color: aqua;
+            margin-right: 10px;
+            text-align: center;
+            position: relative;
+
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+}
+
+.caixa5 > h1 {
+    color: white;
+    font-size: 2em;
+    top: 0;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    padding: 10px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.267);
+    
+}
+
