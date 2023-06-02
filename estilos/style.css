@@ -318,3 +318,15 @@ html, body {
     
 }
 
+
+.mapa {
+    width: 100%;
+    overflow: hidden;
+}
+
+iframe {
+    float: left;
+    margin-right: 10px;
+}
+
+
