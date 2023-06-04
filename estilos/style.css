@@ -160,6 +160,8 @@ html, body {
     margin: 0;
 }
 
+
+
 .caixa1 {
             display: inline-block;
             width: 290px;
@@ -169,7 +171,7 @@ html, body {
             margin-right: 10px;
             text-align: center;
             position: relative;
-            
+            margin: 5px;
             
 
             border-top-left-radius: 10px;
@@ -199,6 +201,7 @@ html, body {
             margin-right: 10px;
             text-align: center;
             position: relative;
+            margin: 5px;
             
             
 
@@ -242,6 +245,7 @@ html, body {
             margin-right: 10px;
             text-align: center;
             position: relative;
+            margin: 5px;
 
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
@@ -249,7 +253,7 @@ html, body {
             border-bottom-right-radius: 10px;
 }
 
-.caixa3 > h1 {
+.caixa3 > div > h1 {
     color: white;
     font-size: 2em;
     top: 0;
@@ -270,6 +274,7 @@ html, body {
             margin-right: 10px;
             text-align: center;
             position: relative;
+            margin: 5px;
             
 
             border-top-left-radius: 10px;
@@ -278,7 +283,7 @@ html, body {
             border-bottom-right-radius: 10px;
 }
 
-.caixa4 > h1 {
+.caixa4 > div  > h1 {
     color: white;
     font-size: 2em;
     top: 0;
@@ -299,6 +304,7 @@ html, body {
             margin-right: 10px;
             text-align: center;
             position: relative;
+            margin: 5px;
 
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
@@ -306,7 +312,7 @@ html, body {
             border-bottom-right-radius: 10px;
 }
 
-.caixa5 > h1 {
+.caixa5 > div  > h1 {
     color: white;
     font-size: 2em;
     top: 0;
