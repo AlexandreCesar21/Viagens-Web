@@ -97,6 +97,7 @@ menu > a {
     display: block;
     padding: 10px;
     text-decoration: none;
+    font-weight: bold;
     text-align: right;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.267);
     color: white;
